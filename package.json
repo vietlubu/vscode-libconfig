@@ -1,0 +1,25 @@
+{
+  "name": "libconfig",
+  "displayName": "libconfig",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "libconfig",
+      "aliases": ["libconfig", "libconfig"],
+      "extensions": [".conf",".cfg"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "libconfig",
+      "scopeName": "source.libconfig",
+      "path": "./syntaxes/libconfig.tmLanguage.json"
+    }]
+  }
+}
